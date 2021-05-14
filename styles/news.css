@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;0,800;1,300;1,600&display=swap');
+.news_grand_container__style {
+    background-image: url("../img/Bgroundpaint2.png");
+    margin-top: 5%;
+    width: 1600px;
+    height: 950px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.news_second_container__style {
+    background-image: url("../img/city_2_@2x.png");
+    background-repeat: no-repeat;
+    background-position: -160px 105%;
+    width: 1600px;
+    height: 1035px;
+    display: flex;
+    flex-direction: column;
+}
+
+.news_hr_line__style {
+    background-color: white;
+    margin-top: 140px;
+    width: 100px;
+    height: 1px;
+}
+
+.news_grand_container-heading__style {
+    text-align: center;
+    color: #ffffff;
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.news_slider__style {
+    padding: 0 10%;
+}
+
+.news_slider_element__style {
+    width: 370px;
+    margin-right: 60px;
+    height: 514px;
+    background-color: white;
+}
+
+.news_slider__style .slick-arrow {
+    position: relative;
+    top: 40%;
+    z-index: 10;
+    font-size: 0;
+    text-decoration: none;
+    background: none;
+    border: none;
+}
+
+.news_slider__style .slick-arrow.slick-prev {
+    width: 40px;
+    height: 40px;
+    background-image: url("../img/ArrovLeft.png");
+    background-position: center;
+    position: relative;
+    left: -5%;
+}
+
+.news_slider__style .slick-arrow.slick-next {
+    width: 40px;
+    height: 40px;
+    background-image: url("../img/Arrovright.png");
+    background-position: center;
+    position: relative;
+    top: -45%;
+    left: 101%;
+}
+
+.news_slider__style .slick-dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.news_slider__style .slick-dots li {
+    list-style: none;
+    margin: 0 8px;
+}
+
+.news_slider__style .slick-dots button {
+    font-size: 0;
+    width: 10px;
+    height: 14px;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.news_slider__style .slick-dots .slick-active button {
+    background-color: #ffffff;
+}
+
+.news_foto__style {
+    width: 367px;
+    height: 240px;
+    background-image: url("../img/img3.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.news_foto_plusic__style {
+    background-image: url("../img/plusik.svg");
+    width: 80px;
+    height: 80px;
+    border: 1px solid #ffffff;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.news_container_heading__style {
+    width: 276px;
+    height: 50px;
+    color: #2c4058;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 34px;
+    text-align: center;
+}
+
+.news_container_parag__style {
+    width: 340px;
+    height: 49px;
+    margin: 0 15px;
+    color: #4b5562;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 30px;
+    text-align: left;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+.news_container_footer__style {
+    width: 340px;
+    height: 60px;
+    margin: 35px 15px 0 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.news_persons__style {
+    font-family: 'Poppins', sans-serif;
+    margin: -10px 0 0 10px;
+}
+
+.news_persons-p1__style {
+    color: #2c4058;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 22px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.news_persons-p2__style {
+    margin: -14px 0 0 0;
+    height: 11px;
+    color: #55b7ff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+.second_news_foto__style {
+    background-image: url("../img/img4.png");
+}
+
+.third_news_foto__style {
+    background-image: url("../img/img5.png");
+}
+
+.news_foto_plusic__style {
+    display: none;
+}
+
+.news_foto__style:hover .news_foto_plusic__style {
+    display: flex;
+}
