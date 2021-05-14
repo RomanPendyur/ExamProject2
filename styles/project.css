@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700;800&display=swap');
+.project_general_container__style {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.project_general_container-hr__style {
+    background-color: gray;
+    width: 100px;
+    height: 1px;
+}
+
+.project_general_container_heading__style {
+    height: 44px;
+    color: #2c4058;
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 44px;
+    text-align: center;
+}
+
+.project_first_container__style {
+    width: auto;
+    height: 680px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.project_first_container_foto__style {
+    width: 50%;
+}
+
+.project_first_foto-bg__style {
+    width: 630px;
+    height: 470px;
+    background-color: #55b7ff;
+}
+
+.project_first_foto__style {
+    width: 630px;
+    height: 470px;
+    position: relative;
+    top: -410px;
+    left: 80px
+}
+
+.project_first_container_content__style {
+    width: 630px;
+    height: 470px;
+    position: relative;
+    top: 60px;
+    left: -20px;
+}
+
+.project_content_overheading__style {
+    font-size: 22px;
+    font-weight: 400;
+    font-weight: 400;
+    color: #2c4058;
+}
+
+.project_content_heading__style {
+    color: #2c4058;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 24px;
+    position: relative;
+    top: -48px;
+}
+
+.project_content_info__style {
+    width: 500px;
+    height: 90px;
+    color: #4b5562;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    position: relative;
+    top: -50px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.project_content_button__style {
+    width: 190px;
+    height: 50px;
+    padding: 13px 30px;
+    border: 1px solid #2c4058;
+    position: relative;
+    top: -10px;
+    text-decoration: none;
+    color: #2c4058;
+}
+
+.project_content_loca__style {
+    width: 400px;
+    height: 20px;
+    position: relative;
+    top: 40px;
+}
+
+.project_content_loca-svg__style {
+    width: 10px;
+    height: 10px;
+}
+
+.project_content_loca-p__style {
+    position: relative;
+    top: -27px;
+    left: 20px;
+    font-style: italic;
+}
+
+.project_second_container__style {
+    width: 80%;
+    height: 580px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 165px;
+}
+
+.project_second_foto-bg__style {
+    width: 630px;
+    height: 470px;
+    background-color: #7e5aff;
+    position: relative;
+    left: 150px;
+}
+
+.project_first_foto__style {
+    width: 630px;
+    height: 470px;
+    position: relative;
+    top: -410px;
+    left: 80px
+}
